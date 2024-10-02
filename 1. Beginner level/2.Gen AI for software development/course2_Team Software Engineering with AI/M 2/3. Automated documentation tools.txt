@@ -1,0 +1,22 @@
+For simplicity and Markdown support: Use MkDocs.
+For Python-only projects: Use pdoc or Pycco.
+For multi-language projects: Use Doxygen.
+For built-in, quick documentation: Use Pydoc.
+For complex, detailed docs with reStructuredText: Use Sphinx.
+
+
+Prompt:
+As an expert in generating automatic documentation, can you help me set up Sphinx to generate documentation for the following Python code?
+def calculate_area(radius):
+    """
+    Calculate the area of a circle given its radius.
+
+    :param radius: The radius of the circle.
+    :type radius: float
+    :return: The area of the circle.
+    :rtype: float
+    """
+    pi = 3.14159
+    return pi * radius * radius
+
+Answer: Chatgpt will show how to setup Sphinx

@@ -1,0 +1,61 @@
+# Example 1:"Write a docstring for the following function in Google style."
+Ans:
+def calculate_area(radius):
+    """
+    Calculate the area of a circle given its radius.
+
+    Args:
+        radius (float): The radius of the circle.
+
+    Returns:
+        float: The area of the circle.
+    """
+    pi = 3.14159
+    return pi * radius * radius
+
+
+Example 2: "Write a docstring for the following function in Sphinx (reST) style."
+Ans:
+def find_max(numbers):
+    """
+    Find the maximum number in a list.
+
+    :param numbers: List of numbers.
+    :type numbers: list
+    :return: The largest number in the list.
+    :rtype: int or float
+    """
+    max_number = numbers[0]
+    for number in numbers:
+        if number > max_number:
+            max_number = number
+    return max_number
+
+
+
+# Example 3: "Write a docstring for the following function in NumPy or SciPy style."
+def bubble_sort(arr):
+    """
+    Sort an array using the bubble sort algorithm.
+
+    Parameters
+    ----------
+    arr : list
+        A list of numbers to be sorted.
+
+    Returns
+    -------
+    list
+        The sorted list of numbers.
+
+    Examples
+    --------
+    >>> bubble_sort([64, 34, 25, 12, 22, 11, 90])
+    [11, 12, 22, 25, 34, 64, 90]
+    """
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
