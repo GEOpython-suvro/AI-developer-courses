@@ -1,1 +1,1 @@
-httpswww.learnpytorch.io
+https://learnpytorch.io/
