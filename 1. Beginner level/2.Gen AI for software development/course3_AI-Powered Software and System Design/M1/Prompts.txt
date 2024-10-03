@@ -1,0 +1,86 @@
+Steps for Building a Configuration-Driven Image Generation Application with DALL-E API:
+Externalize Configuration
+Modify Behavior Through Configuration
+Design Paradigm: Configuration-Driven Development
+Incorporate Additional API Parameters
+Pickle Data and Configuration
+Unpickle Data
+Leverage LLM for Design and Implementation
+Refactor and Add More Features
+End with a Challenge
+Future Module: Database Integration(next module)
+
+
+PROMPTS
+1. Configuration-driven development overview:
+-Brainstorming design paradigms
+
+Prompt: You are an expert on software design paradigms. I am working on building a simple Python-based app that will make calls to the DALL-E API and generate images for users.
+
+The application will be deployed in many different contexts and configurations depending on the end users, and I want my less technical colleagues to be able to do some customization without editing the code itself.
+
+What high level software design paradigms should I consider for this project?
+
+-Help me weigh the pros and cons of using CDD on this project
+
+2.Choosing a configuration file format:
+Prompts:
+-Which file formats should I consider for using in my configuration files. For each one share the prons and cons of using it. Generate configuration files for each format.
+write data to a file:
+-How do I write data to a file in python? I am an experienced developer so just give me the sample code. Can you show me how to read from this file?
+-Which library or commands should I use to read or write JSON configuration files?
+
+3.JSON and pickle:
+Prompt:
+If I am going to be reading and writing configuration files in JSON,which command should I be familiar with? Can you show me some examples?
+Data serialization:
+-You are an expert Python developer who intimately understands the language and its ecosystem. You are also an excellent explainer that helps people understand whatever you tell them, whether they are a novice or expert. Please answer this question: Explain what Pickle is, and why it is useful in Python. Be very succinct.
+-what are the most commands for me to know in pickle?
+-Show me an example of pickling a more complex object.
+
+4.Code to call DALL-E(be aware of getting deprecated library.Then refactor the code):
+Prompt: You are a deep expert on the OpenAI ecosystem, including the client libraries, REST endpoints, and any other way of accessing functionality of GPT, DALL-E, and other models.
+
+Please create easy to read, easy to follow code that will call DALL-E to generate an image. The code should be in Python, and all parameters should be in an external file that the Python code reads.
+
+Please use the most up-to-date design pattern.
+
+Code to access DALL-E via REST endpoint:(no chance of getting deprecated library.)
+Prompt:
+Can you create code that accesses the OpenAI endpoint at:
+https://platform.openai.com/docs/api-reference/images/create
+directly to create an image?
+
+5.Implementing CDD:
+Externalizing parameters-
+a.Prompt: I have this code that calls the REST endpoint for DALL-E to generate an image. The code has the parameter for the calls hardcoded in it. Can you externalize the parameters in a separate file?
+
+Please also provide an exhaustive list of the parameters in the API docs here:
+https://platform.openai.com/docs/api-reference/images/create
+
+b.Follow-up prompt-
+Can you modify this code to fix two issues:
+First, regardless of how many images we ask for, you only parse out 1 image from the response data.
+
+Second, can you download the images from the URL and save them locally. Add the desired filename to the JSON file, and save them as <filename>1.PNG, <filename>2.PNG, etc.
+
+c.follow-up prompt for configuration file(i.e.JSON)-
+Suggest additional settings I could add to the configuration file and explain what behaviors in my app they would help control.
+
+d.follow-up: 
+Adding a timeout(there are other parameters to add also)-
+Prompt:
+Update the configuration file and app code to include a timeout for the API calls.
+
+6. Serializing result:
+follow-up:
+Adding parameters and serializing results(may hallucinate default values for some of the parameters that are not actually supported by the API):
+Prompt: Can you make 2 more modifications:
+First can you add the style and quality parameters to the payload configuration, and load them to pass to the backend?
+
+Then, after the files are downloaded, can you pickle them up along with the configuration file?
+
+
+
+
+            
