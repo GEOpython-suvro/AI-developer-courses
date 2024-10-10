@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="keywords" content="Editor.md,editor,Markdown Editor,Markdown" />
+    <meta name="description" content="Skills Network Author IDE" />
+    <title>Skills Network Editor</title>
+    <link rel="stylesheet" href="/editormd/examples/css/style.css?version=3.3.5" />
+    <link rel="stylesheet" href="/editormd/css/editormd.css?version=3.3.5" />
+    <link rel="stylesheet" href="/public/css/custom.css?version=3.3.5" />
+    <link rel="stylesheet" href="/public/css/custom_popover.css?version=3.3.5" />
+    <link rel="shortcut icon" href="/public/images/SN_favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="/public/js/comms.js?version=3.3.5"></script>
+    <script src="//unpkg.com/alpinejs"></script>
+</head>
+
+<body>
+    <div id="layout">
+    <div id="test-editormd">
+        <textarea style="display:none;">## Generative AI
+
+
+### Course Glossary: Architecture and Data Preparation for LLMs
+
+
+
+&lt;div align&#x3D;&quot;left&quot;&gt;
+
+
+
+Welcome! This alphabetized glossary contains many of the terms in this course. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are essential for you to recognize when working in the industry, participating in user groups, and in other certificate programs.
+
+
+**Estimated reading time:** 4 minutes
+
+
+| Term | Definition |
+|------|--------|
+| Bidirectional and Auto-Regressive Transformers (BART) | Sequence-to-sequence large language model (LLM), which follows an encoder-decoder architecture. It leverages encoding for contextual understanding and decoding to generate text. |
+| Bidirectional Encoder Representations from Transformers (BERT) | Large language model (LLM), which utilizes an encoder-only transformer architecture. It is exceptional at understanding the context of a word within a sentence, which is crucial for nuanced tasks like sentiment analysis. |
+| Data analysis learning with language model for generation and exploration (DALL-E) | AI model developed by OpenAI, known for generating complex and creative images from textual descriptions using deep learning techniques |
+| Data loader | Application component that enables efficient batching and shuffling of data, which is essential for training neural networks. It allows for on-the-fly preprocessing, which optimizes memory usage. |
+| Data set | Collection of data samples and their labels | 
+| Diffusion model | Probabilistic generative AI model commonly used for image generation. A diffusion model is trained to generate images by learning to remove noise or reconstruct examples from its training data that have been distorted beyond recognition. |
+| Fine-tuning | Adjusting a pretrained model to improve performance for a specific task or data set. This makes the model generate more accurate and contextually relevant content. |
+| Generative adversarial network (GAN) | Generative AI model that can generate images from random input vectors or seed images. It consists of a generator and a discriminator, which work in a competitive mode. |
+| Generative AI | Deep-learning models that can generate high-quality text, images, and other content based on the data they were trained on. These models are developed and trained to understand patterns and structures within existing data and apply the understanding to produce new and relevant data. |
+| Generative pre-trained transformers (GPT) | Generative AI model based on transformer architecture. It has been pretrained on large amounts of text data and can predict and generate text sequences based on the patterns learned from its training data. |
+| Hugging Face | Platform that offers an open-source library with pretrained models and tools to streamline the process of training and fine-tuning generative AI models. |
+| Iterator | An object that can be looped over. It contains elements that can be iterated through and typically includes two methods: iter and next. |
+| LangChain | Open-source framework that helps in streamlining AI application development using large language models (LLMs) |
+| Large language models (LLMs) | Foundation models that use AI and deep learning with vast data sets to generate text, translate languages, and create various types of content. They are called large language models due to the size of the training data set and the number of parameters. |
+| Natural language processing (NLP) | Subfield of artificial intelligence (AI) that deals with the interaction of computers and humans in human language. It involves creating algorithms and models that will help computers understand and comprehend human language and generate contextually relevant text in human language. |
+| NLTK | Python library used in natural language processing (NLP) for tasks such as tokenization and text processing |
+| Pydantic | Python library that helps streamline data handling. It can be used to parse and validate your data. |
+| PyTorch | Dynamic deep learning framework developed by Facebook\&#x27;s AI Research lab. It is a Python-based library well-known for its ease of use, flexibility, and dynamic computation graphs. |
+| Recurrent neural networks (or RNNs) | Artificial neural networks that use sequential or time series data. RNNs are used to solve data-related problems with a natural order or time-based dependencies. |
+| SentencePiece | Subword-based tokenization algorithm that segments text into manageable parts and assigns unique IDs |
+| spaCy | Open-source library used in natural language processing. It provides tools for tasks such as tokenization and word embeddings. |
+| TensorFlow | Open-source machine learning framework. It provides a set of tools and libraries to facilitate the development and deployment of machine learning models. |
+| Text-to-Text Transfer Transformer (T5) | Transformer-based large language model, which uses a text-to-text framework. It leverages encoding for contextual understanding and decoding to generate text. |
+| Tokenization | Breaking text into smaller pieces or tokens. The tokens help a generative AI model understand the text better. |
+| Tokenizer | Program that breaks down text into individual tokens |
+| Transformers | Deep learning models that can translate text and speech in near-real-time. They take data, such as words or numbers, and pass it through different layers, with information flowing in one direction. |
+| Unigram | Subword-based tokenization algorithm that breaks text into smaller pieces. It begins with a large list of possibilities and gradually narrows down based on how frequently they appear in the text. |
+| variational autoencoders (VAEs) | Generative AI model that operates on an encoder-decoder framework. The encoder network first compresses input data into a simplified, abstract space that captures essential characteristics. The decoder network then uses this condensed information to recreate the original data. |
+| WaveNet | Generative AI model designed for generating audio content. It can be used for tasks such as speech synthesis. |
+| WordPiece | Subword-based tokenization algorithm that evaluates the benefits and drawbacks of splitting and merging two symbols to ensure its decisions are valuable. |
+
+ &lt;!---
+
+
+## Changelog
+
+| Date | Version | Changed by | Change Description |
+|------|--------|--------|---------|
+| 01-19-2024 | 0.2| Editor name  | QA pass with edits |
+| 01-17-2024 | 0.1 | Chitra P Nair | Initial version created |
+
+---&gt;
+
+
+![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0201EN-Coursera/images/footer_logo_sn_ibm.png)
+
+&lt;!-- ### &amp;#169; IBM Corporation 2024. All rights reserved. --&gt;</textarea>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/he@1.2.0/he.min.js"></script>
+<script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.6/iframeResizer.contentWindow.min.js"></script>
+
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<link rel="stylesheet" href="public/css/custom_plyr.css?version=3.3.5" />
+
+<script src="editormd/examples/js/jquery.min.js"></script>
+<script src="editormd/editormd.js?version=3.3.5"></script>
+
+<script src="editormd/languages/en.js"></script>
+
+<script src="public/js/common.js?version=3.3.5"></script>
+<script src="public/js/render.js?version=3.3.5"></script>
+
+<script type="text/javascript">
+
+
+    var authorEditor = $(function () {
+        let metadata = he.decode('{&quot;markdown-version&quot;:&quot;v1&quot;,&quot;tool-type&quot;:&quot;instructional-lab&quot;,&quot;branch&quot;:&quot;lab-9441-instruction&quot;,&quot;version-history-start-date&quot;:&quot;2024-01-16T09:11:35Z&quot;,&quot;audio-timestamp-of-request-to-generate-wav&quot;:&quot;2024-10-03T15:32:32Z&quot;,&quot;audio-file-url&quot;:&quot;https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0201EN-Coursera/labs/Glossary/C1/Generative_AI_and_LLMs%3A_Arch_and_Data_Prep.md.wav&quot;}')
+        injectMetadata(metadata)
+
+        let token = findGetParameter("token");
+
+        let LABS_BASE_URL = 'https://labs.cognitiveclass.ai';
+        let asset_library_prefix_url = 'https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0201EN-Coursera';
+        let tool_type = "instructional-lab";
+        let filename = `labs/Glossary/C1/Generative_AI_and_LLMs%3A_Arch_and_Data_Prep.md`;
+        let audioFileUrl = `https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-AI0201EN-Coursera/labs/Glossary/C1/Generative_AI_and_LLMs%3A_Arch_and_Data_Prep.md.wav`
+        let currentTheme = localStorage.getItem("theme") || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "default");
+
+        return authorEditor = editormd("test-editormd", "3.3.5", {
+            tool_type,
+            filename,
+            audioFileUrl,
+            width: "100%",
+            //height: "100%",
+            autoHeight: true,
+            // mode: 'markdown',
+            theme: currentTheme,
+            previewTheme: currentTheme,
+            editorTheme: currentTheme === "dark" ? "pastel-on-dark" : "default",
+            readOnly: true,
+            pluginPath: 'plugins/',
+            syncScrolling: false,
+            htmlDecode: 'img',
+            path: 'editormd/lib/',
+            watch: false,
+            // markdown,
+            toolbar: false,
+            atLink: false,
+            toc: true,
+            tocm: true,
+            tocDropdown: false,
+            tocTitle: "Table of Contents For your lab!",
+            tex: true,
+            flowChart: true,
+            sequenceDiagram: true,
+            codeFold: true, // Doesn't do anything?
+            taskList: true,
+            emoji: true,
+            saveMarkdownToTextarea: true,
+
+            onresize: function () {
+                $("html,body").css("overflow", "hidden");
+
+                this.preview.css({
+                    width: $(window).width(),
+                    height: $(window).height()
+                })
+
+                adjustProgressBarWidth()
+            },
+            fixCodeBlocks: function () {
+                adjustCodeBlocks(this);
+            },
+            onload: function () {
+                $("[type=\"file\"]").bind("change", function () {
+                    alert($(this).val());
+                    authorEditor.cm.replaceSelection($(this).val());
+                    console.log($(this).val(), authorEditor);
+                });
+
+                this.fullscreen();
+                this.previewing();
+
+                setPreviewWatchToolbar(this);
+
+                if (tool_type != "instructional-lab") {
+                    fixCustomPlugins(this, 'https://reward.skills.network/claim');
+                }
+                else {
+                    if(audioFileUrl) {
+                        addAudioWidget(this, audioFileUrl);
+                    }
+                }
+
+                setAssetLibraryPrefixUrl(asset_library_prefix_url);
+                //comms with UI
+                setParentUrl(LABS_BASE_URL);
+                establishCommsWithUI(this);
+                //let the UI know that the author-ide has loaded
+                requestToUI({ type: "frame_loaded" });
+            }
+        });
+    });
+</script>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+</html>
