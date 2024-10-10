@@ -1,0 +1,76 @@
+Gang of Four design pattern groups-
+Creational: Outline object creation mechanisms.
+Structural: Deal with the composition of classes or objects.
+Behavioral: Characterize the ways in which classes or objects interact and distribute responsibility.
+
+Exploring design patterns with an LLM
+Prompt: Give me a high-level overview of the Gang of Four design patterns.
+
+Creational design patterns
+Singleton
+Builder
+Prototypes
+Factory Methods
+Abstract Factories
+
+Structural design patterns
+Adapter
+Bridges
+Composites
+Decorators
+Facades
+Flyweights
+Proxies
+
+Behavioral design patterns
+Iterator
+Strategy
+Template Method
+
+Building a financial services app
+Prompt: You are an expert Python developer who builds readable code. Together we will work on an application that has a database to store information, code to retrieve data from the database, and analytics that will run on the retrieved data.
+First, let's create the database, which has a table for companies. The table will have three columns, the first is an id, the second the ticker for the company, the third is the name of the company. Create this, and synthesize data for 10 companies, adding that to the database.
+
+Generating synthetic data
+Follow up: Now add another table called Timeseries' that has four columns, an id for the row, the id for one of the companies, a value, and a date. Populate this with about 100 values per company, and have the dates be successive.
+
+Loading and processing company data
+Follow up: Now create code that when given a company ticker or an ID that it will extract the data for that company, and the time series data and load it into an company object. This object should have fields for high_bollinger which is the same data type as the time series, low_bollinger which is the same, moving_average which is the same, and a grade field which is a string.
+
+Requesting design pattern advice
+Prompt: You are an expert in software design patterns, particularly those from the Gang of Four, designed to make coding and maintenance more efficient. Please analyze the following code and suggest some changes that I could make based on good software engineering practice with these design patterns.
+
+Requesting design pattern advice iteratively
+Follow up: Instead of making all the changes at once, please do them one at a time, going in order from Singleton to Factory to template Method to Strategy, and explain in detail why you made the changes and what impact they may have.
+
+Requesting Design Pattern Advice Iteratively
+Prompt: What would the problem be if get_connection() wasn't a static method?
+
+Requesting design pattern advice iteratively
+Prompt: Enhance the following code to use the gang-of-four patterns. Strictly follow the common conventions for any patterns you choose.
+
+Requesting design pattern advice iteratively
+Follow up: Enhance the following code to use the Singleton gang-of-four pattern. Strictly follow the common conventions for the pattern.
+Start by explaining the conventions for the Singleton pattern and then describe how the code modifications you made strictly follow the conventions.
+
+Requesting information on the Factory Pattern
+Prompt: Let's go back to the factory pattern, can you explain it in much more detail? It looks like this code may not benefit from it, but can you speculate about extensions to the code that might?
+Note-This prompt continued the previous chat
+
+Implementing Factory Pattern:
+Enhance the following code to use the Factory gang-of-four pattern. Strictly follow the common conventions for the pattern.
+Start by explaining the conventions for the Factory pattern and why it makes sense to use it here. Then describe how the code modifications you made strictly follow the conventions of the pattern.
+YOUR CODE HERE...
+
+Multiple company types using the Factory Pattern:
+Prompt: Go back to the code that adds data to the database and synthesize some foreign companies (which will have a unique ID, but the ticker is always 'ZZZZ') and the data for them, both in the companies table and in the time series table.
+Then fully explain the Factory pattern by having multiple company types -- a Domestic Company that is denoted by its ticker, and a Foreign Company that is denoted by its ID.
+Create code that shows how
+
+Self-paced exercise
+1.Implement a third kind of company - a crypto currency
+   -Traded 24 hours, so has no daily "closing" price
+2.Can you use the current TimeSeries database, or do you need a new one?
+3.Can you modify the code to calculate Bollinger bands, moving average etc. for these companies?
+
+
