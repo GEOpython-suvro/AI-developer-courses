@@ -1,0 +1,32 @@
+1.Write a Python function that takes word embeddings and their vocabulary as input and uses t-SNE to reduce the embeddings to two dimensions. Plot the embeddings on a 2D scatter plot and label each point with the corresponding word from the vocabulary. The function should use matplotlib for plotting and annotate each point with the word. Assume the vocabulary can be accessed using vocab.get_itos().
+
+2.Write a function in Python that takes a word and a set of word embeddings as input. It should calculate the similarity between the word and other words in the embeddings using cosine similarity and return a list of the top k similar words. If the word is not found, it should return an empty list and print a message.
+
+3.Write a Python function called train_model that takes a PyTorch model, a DataLoader for training data, a loss function, an optimizer, and the number of epochs as inputs. The function should train the model and return the trained model along with a list of average losses for each epoch.
+
+toy_data ="..................."
+4.Generate a Python function that takes a long string of sentences, tokenizes them into words using a basic English tokenizer, and creates a vocabulary from the tokens while handling unknown words with a special token.
+
+5.Write Python code that, given a tokenized version of a text (such as toy_data), loops through the tokens and creates context-target pairs. The context should consist of two words before and two words after each target word. Print two of the context-target pairs at the end.
+
+6.Write Python code that takes a batch of context-target word pairs (like cobow_data), converts the target and context words into their numeric form using a vocabulary, and organizes the results into three tensors: one for target words, one for context words, and one for offsets that mark where each context starts. The function should return these tensors, and a small batch should be tested and printed.
+
+7.Write Python code that uses a DataLoader to divide the cobow_data into batches of 64, shuffle the data, and use the collate_batch function to prepare each batch. Then, print the dataloader to see the details.
+
+8.Write Python code to create a Continuous Bag of Words (CBOW) model using PyTorch. The model should have an embedding layer, a linear layer that halves the embedding size, and a final fully connected layer to predict the word from the context. Initialize the weights and biases. Then, create a CBOW model with an embedding size of 24 and move it to the device.
+
+9.Write Python code to set up the training process for a CBOW model using PyTorch. Include the following components:
+A learning rate (LR) of 5,
+A loss function using CrossEntropyLoss,
+An optimizer using stochastic gradient descent (SGD) to update the model parameters,
+A learning rate scheduler that reduces the learning rate by a factor of 0.1 every epoch,
+Train the model for 400 epochs, and plot the loss over epochs.
+
+10.Write Python code to extract and visualize word embeddings from a CBOW model in PyTorch. Include the following steps:
+Get the weight of the embedding layer and convert it into a NumPy array.
+Specify a word (e.g., 'baller') and find its index in the vocabulary.
+Print the embeddings for the specified word.
+Create a plot to visualize the word embeddings for all words in the vocabulary.
+
+
+
