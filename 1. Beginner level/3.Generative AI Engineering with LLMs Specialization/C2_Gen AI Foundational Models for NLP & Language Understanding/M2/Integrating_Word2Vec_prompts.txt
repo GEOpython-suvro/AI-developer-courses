@@ -59,7 +59,7 @@ Find similar words to a target word ('pizza') and calculate the similarity betwe
 Extract the word vectors and create a word-to-index mapping.
 Create a PyTorch embedding layer initialized with the trained Word2Vec vectors and demonstrate how to get the embedding for a specific word.
 
-Text classification using pretrained word embeddings:
+Text classification using pretrained word embeddings(GloVe):
 Write a Python script to implement a text classification model using PyTorch and TorchText. The model should use GloVe embeddings to represent words and should be trained on the AG_NEWS dataset. Include the following features:
 1. Load GloVe embeddings and create a vocabulary with special tokens for unknown and padding.
 2. Define a tokenizer for basic English.
