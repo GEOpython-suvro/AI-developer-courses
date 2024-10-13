@@ -1,0 +1,13 @@
+#**Sequence-to-Sequence RNN Models: Translation Task**#
+In this hands-on guide, we will explore the fundamentals of sequence-to-sequence models and learn how to implement an RNN-based model for a translation task using PyTorch.
+
+#Objectives:
+After completing this lab, we will be able to:
+ - Comprehend recurrent neural networks (RNN) architecture
+ - Create an Encoder-Decoder model for a translation task
+ - Train and evaluate the model
+ - Create a generator for the translation task
+ - Explain concepts related to Perplexity and BLEU score and use them for evaluating translations
+
+
+

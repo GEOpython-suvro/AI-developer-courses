@@ -1,3 +1,4 @@
+# **Integrating Word2Vec** #
 Here, we will be introduced to the Skip-gram and CBOW models, teaching how to build and apply these for text classification in PyTorch. We'll also incorporate pretrained GloVe embeddings to enhance the models. An optional section on advanced embedding applications is available for further exploration. By the end of this lab, we'll be adept at using word embeddings for natural language processing (NLP) tasks.
 ## Objectives
 After completing this lab we will be able to:
