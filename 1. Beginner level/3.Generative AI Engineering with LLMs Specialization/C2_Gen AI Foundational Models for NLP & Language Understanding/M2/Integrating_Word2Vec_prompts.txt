@@ -28,5 +28,52 @@ Specify a word (e.g., 'baller') and find its index in the vocabulary.
 Print the embeddings for the specified word.
 Create a plot to visualize the word embeddings for all words in the vocabulary.
 
+11.Write Python code to generate (target, context) word pairs using a context window size of 2. For each word in a tokenized dataset, collect 2 words before and 2 words after it as context, and then flatten the resulting list to create individual (target, context) pairs.
+
+12.Write Python code to create a collate function that processes pairs of (context, target) words from a list. Convert the context and target words to their corresponding numerical IDs using a vocab dictionary, and then return them as tensors. Create a DataLoader to return batches of these tensors.
+
+13.Write a PyTorch class for a Skip-Gram model with an embeddings layer that maps words to embeddings and a fully connected layer that predicts context words from the embeddings. Define the forward pass that applies ReLU to the embeddings before passing them to the fully connected layer. Initialize the model with a vocabulary size and embedding dimension.
+
+14.Write PyTorch code to train a Skip-Gram model using stochastic gradient descent (SGD) and CrossEntropyLoss. The model should be trained using a learning rate of 5 and a batch size of 64. After training, plot the loss over epochs using matplotlib. The train_model() function is predefined, which handles the training loop. Once training is complete, extract the word embeddings from the model and plot them using a function plot_embeddings() that accepts the embeddings and vocabulary.
+
+
+Applying pretrained word embeddings:
+1.Write PyTorch code that:
+Loads the pre-trained GloVe word embeddings (specifically the 6B version).
+Converts these embeddings into a PyTorch embedding layer.
+Maps words to their corresponding index from the GloVe vocabulary and shows how to retrieve the vector representation of the word 'team' from the embedding layer.
+
+2.Write PyTorch code that:
+Takes an array of example words.
+Retrieves the corresponding GloVe embeddings for each word using the GloVe model.
+Stores these embeddings in a dictionary.
+Finds and prints the top 2 most similar words to a target word ('small') based on cosine similarity, using a predefined function find_similar_words.
+
+Train a word2vec model from gensim:
+1.Write Python code using Gensim's Word2Vec to:
+Define a list of sentences, each containing a list of words.
+Lowercase all words in the sentences.
+Create a Word2Vec model with specified parameters (e.g., vector size, window size).
+Build the vocabulary and train the model.
+Find similar words to a target word ('pizza') and calculate the similarity between two words ('pizza' and 'pasta').
+Extract the word vectors and create a word-to-index mapping.
+Create a PyTorch embedding layer initialized with the trained Word2Vec vectors and demonstrate how to get the embedding for a specific word.
+
+Text classification using pretrained word embeddings:
+Write a Python script to implement a text classification model using PyTorch and TorchText. The model should use GloVe embeddings to represent words and should be trained on the AG_NEWS dataset. Include the following features:
+1. Load GloVe embeddings and create a vocabulary with special tokens for unknown and padding.
+2. Define a tokenizer for basic English.
+3. Load and split the AG_NEWS dataset into training and validation sets.
+4. Create functions to process text and labels.
+5. Implement a collate function to create batches for training.
+6. Define a PyTorch model for text classification that uses the GloVe embeddings.
+7. Create functions for evaluating the model's performance.
+8. Implement a training loop with hyperparameter settings and save the best model.
+9. Plot the training loss and accuracy over epochs.
+10. Evaluate the final model on the test dataset.
+
+
+
+
 
 
