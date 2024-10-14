@@ -16,3 +16,6 @@
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)
 - [A Neural Probabilistic Language Model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
 - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781)
+
+## Learn PyTorch for Deep Learning: Zero to Mastery book
+- [Pytorch 0 to mastery](https://www.learnpytorch.io/)
