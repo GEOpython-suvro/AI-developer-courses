@@ -10,4 +10,35 @@ After completing this lab, we will be able to:
  - Explain concepts related to Perplexity and BLEU score and use them for evaluating translations
 
 
+Prompts:
+Please write a PyTorch class for an Encoder in a sequence-to-sequence model using LSTM. The Encoder should include the following components:
+- An embedding layer to convert input word indices to dense vectors.
+- An LSTM layer to process the embedded input.
+- Dropout for regularization.
+- A forward method that takes an input batch and returns the hidden and cell states.
 
+The class should be initialized with the following parameters:
+- `vocab_len`: Size of the vocabulary
+- `emb_dim`: Dimensionality of the embedding
+- `hid_dim`: Hidden state dimensionality
+- `n_layers`: Number of LSTM layers
+- `dropout_prob`: Dropout probability
+
+Make sure to include comments explaining each part of the code and provide an example of how to instantiate the Encoder and call its forward method with a sample input batch.
+
+
+Please write a PyTorch class for a Decoder in a sequence-to-sequence model using LSTM. The Decoder should include the following components:
+- An embedding layer to convert input word indices to dense vectors.
+- An LSTM layer to process the embedded input and the previous hidden and cell states.
+- A fully connected layer to predict the next word in the sequence.
+- Dropout for regularization.
+- A log softmax layer to output log probabilities.
+
+The class should be initialized with the following parameters:
+- `output_dim`: Size of the output vocabulary
+- `emb_dim`: Dimensionality of the embedding
+- `hid_dim`: Hidden state dimensionality
+- `n_layers`: Number of LSTM layers
+- `dropout`: Dropout probability
+
+Make sure to include comments explaining each part of the code and provide an example of how to instantiate the Decoder and call its forward method with a sample input, hidden state, and cell state.
