@@ -5,6 +5,7 @@
 -**Give feedback:** Iteratively prompt the LLM and provide feedback on the output you receive to get closer to your expected results 
 
 ## Papers to code from scratch
+- [Grad Descent based Opti Algorithms for DL Models Training](https://arxiv.org/pdf/1706.03762)
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
 - [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685)
 - [AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929)
