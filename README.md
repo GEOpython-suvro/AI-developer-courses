@@ -5,13 +5,12 @@
 -**Give feedback:** Iteratively prompt the LLM and provide feedback on the output you receive to get closer to your expected results 
 
 ## Papers to code from scratch
-- [Grad Descent based Opti Algorithms for DL Models Training](https://arxiv.org/pdf/1903.03614)
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
-- [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685)
-- [AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929)
-- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/pdf/2005.11401)
-- [Handwritten Digit Recognition with a Back-Propagation Network ](https://proceedings.neurips.cc/paper/1989/file/53c3bce66e43be4f209556518c2fcb54-Paper.pdf)
+- [Grad Descent based Opti Algorithms for DL Models Training](https://arxiv.org/pdf/1903.03614)
 - [Learning to summarize from human feedback](https://arxiv.org/pdf/2009.01325)
+- [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/pdf/2005.11401)
+- [AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929)
+- [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685)
 
 ## Papers to read to get advantages in Language MODELS
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)
