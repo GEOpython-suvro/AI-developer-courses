@@ -6,11 +6,13 @@
 
 ## Papers to code from scratch
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
-- [Grad Descent based Opti Algorithms for DL Models Training](https://arxiv.org/pdf/1903.03614)
-- [Learning to summarize from human feedback](https://arxiv.org/pdf/2009.01325)
+- [LongNet: Scaling Transformers to 1,000,000,000 Tokens](https://arxiv.org/pdf/2307.02486)
+- [RLHF Deciphered: A Critical Analysis of Reinforcement Learning from Human Feedback for LLMs](https://arxiv.org/pdf/2404.08555)
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/pdf/2005.11401)
 - [AN IMAGE IS WORTH 16X16 WORDS:TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929)
 - [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685)
+- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
+- [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971)
 
 ## Papers to read to get advantages in Language MODELS
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)
