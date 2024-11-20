@@ -5,7 +5,7 @@
 -**Give feedback:** Iteratively prompt the LLM and provide feedback on the output you receive to get closer to your expected results 
 
 ## Papers to code from scratch
-- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)
+- [Attention Is All You Need](https://arxiv.org/pdf/1706.03762)-2017
 - [LongNet: Scaling Transformers to 1,000,000,000 Tokens](https://arxiv.org/pdf/2307.02486)
 - [RLHF Deciphered: A Critical Analysis of Reinforcement Learning from Human Feedback for LLMs](https://arxiv.org/pdf/2404.08555)
 - [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/pdf/2005.11401)
