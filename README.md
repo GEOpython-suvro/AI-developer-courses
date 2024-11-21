@@ -13,6 +13,7 @@
 - [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2106.09685)-Oct 2021
 - [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)-June 2022
 - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971)-Feb 2023
+- [QLORA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/pdf/2305.14314)-May 2023
 
 ## Papers to read to get advantages in Language MODELS
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805)-May 2019
