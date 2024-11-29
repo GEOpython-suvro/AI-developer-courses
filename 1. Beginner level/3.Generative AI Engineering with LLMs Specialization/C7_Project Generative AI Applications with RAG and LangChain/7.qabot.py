@@ -1,3 +1,26 @@
+"""
+Setting up a virtual environment
+Let's create a virtual environment. Using a virtual environment allows you to manage dependencies for 
+different projects separately, avoiding conflicts between package versions.
+
+In the terminal of your Cloud IDE, ensure that you are in the path /home/project, then run the following 
+commands to create a Python virtual environment.
+
+pip install virtualenv 
+virtualenv my_env # create a virtual environment named my_env
+source my_env/bin/activate # activate my_env
+
+# installing necessary pacakges in my_env
+python3.11 -m pip install \
+gradio==4.44.0 \
+ibm-watsonx-ai==1.1.2  \
+langchain==0.2.11 \
+langchain-community==0.2.10 \
+langchain-ibm==0.1.11 \
+chromadb==0.4.24 \
+pypdf==4.3.1 \
+pydantic==2.9.1
+"""
 from ibm_watsonx_ai.foundation_models import ModelInference
 from ibm_watsonx_ai.metanames import GenTextParamsMetaNames as GenParams
 from ibm_watsonx_ai.metanames import EmbedTextParamsMetaNames
